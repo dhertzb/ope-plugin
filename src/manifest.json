@@ -1,7 +1,7 @@
 {
   "apiVersion": 1,
   "id": "ope",
-  "name": "Biblioteca de conhecimento",
+  "name": "Knowledge Library",
   "version": "0.1.0",
   "minAppVersion": "0.6.0",
   "main": "main.js",
