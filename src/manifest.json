@@ -1,0 +1,9 @@
+{
+  "apiVersion": 1,
+  "id": "ope",
+  "name": "Open Pedagogy Ecosystem",
+  "version": "0.1.0",
+  "minAppVersion": "0.6.0",
+  "main": "main.js",
+  "backend": "backend.cjs"
+}
