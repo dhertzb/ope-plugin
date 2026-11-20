@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "themes": [
+    {
+      "id": "ope.javascript-closures",
+      "version": "1.0.0",
+      "title": "JavaScript — closures",
+      "path": "themes/javascript-closures.json",
+      "sha256": "1f2c2324e5b5a17c5818a25c780f9526dbc853873713c969756263a36bf97149"
+    }
+  ]
+}

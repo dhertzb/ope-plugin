@@ -1,11 +1,11 @@
 export function activate(ctx) {
   ctx.registerAction({
     id: 'open-library',
-    name: 'Temas da comunidade',
+    name: 'Biblioteca de conhecimento',
     run: () => ctx.app.openView('library')
   });
   ctx.placeAction({ id: 'library-sidebar', actionId: 'open-library', location: 'sidebar' });
-  ctx.registerView({ id: 'library', name: 'Temas da comunidade', mount });
+  ctx.registerView({ id: 'library', name: 'Biblioteca de conhecimento', mount });
 
   function mount(container, signal) {
     const view = document.createElement('section');

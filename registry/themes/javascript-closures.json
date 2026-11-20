@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ope.javascript-closures",
+  "version": "1.0.0",
+  "title": "JavaScript — closures",
+  "author": "Open Pedagogy Ecosystem contributors",
+  "license": "CC-BY-4.0",
+  "concepts": [
+    {"id": "scope", "title": "Escopo léxico", "prerequisites": []},
+    {"id": "closure", "title": "Closure", "prerequisites": ["scope"]}
+  ],
+  "technique": {
+    "id": "ope.recall-predict-apply",
+    "version": "1.0.0",
+    "title": "Recuperar, prever e aplicar",
+    "steps": [
+      {"id": "recall", "conceptId": "scope", "kind": "flashcard", "prompt": "O que determina quais variáveis uma função pode acessar em JavaScript?", "answer": "O escopo léxico, determinado pela posição da função no código."},
+      {"id": "predict", "conceptId": "closure", "kind": "question", "prompt": "Se criarContador retorna uma função que incrementa uma variável local iniciada em zero, quais são os resultados das duas primeiras chamadas à mesma função retornada?", "answer": "1 e 2. As chamadas usam a mesma variável capturada."},
+      {"id": "apply", "conceptId": "closure", "kind": "challenge", "prompt": "Implemente criarContador() de modo que cada função retornada tenha um contador independente. Demonstre com duas instâncias.", "answer": "Declare let total = 0 dentro de criarContador e retorne () => ++total. Duas chamadas à fábrica criam dois ambientes léxicos."}
+    ]
+  }
+}
